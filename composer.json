@@ -1,0 +1,28 @@
+{
+    "name": "kouts/app",
+    "description": "App is based on Flight, a fast, simple, extensible framework for PHP. Flight enables you to quickly and easily build RESTful web applications.",
+    "homepage": "http://www.htmlab.gr",
+    "license": "MIT",
+    "version" : "0.1.0",
+    "authors": [
+        {
+            "name": "Giannis Koutsaftakis",
+            "email": "koutsaftakis@gmail.com",
+            "homepage": "http://www.htmlab.gr/",
+            "role": "Original Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/mikecao/flight"
+        }
+    ],    
+    "require": {
+        "php": ">=5.3.0",
+        "mikecao/flight": "dev-master",
+        "twig/twig": "1.16.*@dev",
+        "phive/twig-extensions-deferred": "1.0.*@dev",
+        "j4mie/paris": "dev-master"
+    }
+}
